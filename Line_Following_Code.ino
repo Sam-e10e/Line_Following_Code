@@ -1,16 +1,19 @@
+//GitHub = https://github.com/Sam-e10e
 
-#define in1 9
-#define in2 8
-#define in3 7
-#define in4 6
-#define enA 10
+#define enA 6
 #define enB 5
+#define in1 7
+#define in2 8
+#define in3 9
+#define in4 10
+int LEFT_SENSOR = digitalRead(A0);
+int RIGHT_SENSOR = digitalRead(A1);
 
 
  int M1_Speed = 80; // speed of motor 1
- int M2_Speed = 80; // speed of motor 2
- int LeftRotationSpeed = 250;  // Left Rotation Speed
- int RightRotationSpeed = 250; // Right Rotation Speed
+ int M2_Speed = 80; // speed of motor 2)
+ int LeftRotationSpeed = 250;  // Left Rotation Speed, you can control the speed of motors here by changing the value (max value is 250)
+ int RightRotationSpeed = 250; // Right Rotation Speed, you can control the speed of motors here by changing the value (max value is 250)
 
 
  void setup() {
